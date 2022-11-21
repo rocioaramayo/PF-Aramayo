@@ -44,6 +44,43 @@
             </div>
           </nav>
     </header>
+    <main>
+        <form action="./enviar.php" method="post">
+            <fieldset>
+                <br>
+                <br>
+                <br>
+                <p class="textoimg">Contactanos</p>
+                <div class="col-12">
+                    <label class="col-2" for="name">Nombre</label>
+                    <input class="col-8" type="text" id="name" title="Ingrese su Nombre" required>
+                </div>
+                <div class="col-12">
+                    <label class="col-2" for="lastname">Apellido</label>
+                    <input class="col-8" type="text" id="lastname" title="Ingrese su Apellido">
+                </div>
+                <div class="col-12">
+                    <label class="col-2" for="phonenumber">Telefono</label>
+                    <input class="col-8" type="tel" id="tel" title="Ingrese su número telefonico" required>
+                </div>
+                <div class="col-12">
+                    <label class="col-2" for="email">E-mail</label>
+                    <input class="col-8" type="email" id="email" title="Ingrese su e-mail" required>
+                </div>
+                <div class="col-12">
+                    <label class="col-2" for="text">Mensaje</label>
+                    <textarea class="col-8" name="message" id="message" cols="20" rows="5"></textarea>
+                </div>
+                <div class="col-12">
+                    <input class="btn-send " type="reset" value="Borrar">
+                    <input class="btn-send "type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+
+
 
 </body>
 </html>
