@@ -209,7 +209,7 @@ textarea {
         text-align: start;
     }
     footer ul{
-        justify-items: center;
+        justify-content: center !important;
     }
 } 
 @media screen and (max-width:988px)  
