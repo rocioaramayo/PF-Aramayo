@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <title>Ayuda - Brawy siempre brinda atencion al cliente</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -46,10 +47,81 @@
     </header>
     <main>
         <img class="w-100" src="./img/fondo3.jpg" alt="">
+        <section class=" d-flex align-items-center">
+            <div class="h-75 container-sm mx-auto">
+                <p class="textoimg m-3">
+                    PREGUNTAS FRECUENTES
+                </p>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <p class="accordion-header textb" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="bi bi-truck"></i>
+                                <span class="m-2"> Envios</span>
+                            </button>
+                        </p>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body textb">
+                          <p clas><strong>¿Cuál es el costo de envio?</strong> </p>
+                          <p >El costo depende del código postal del domicilio de entrega y se detalla en el check-out (es decir, antes de finalizar la compra). Los envíos en Argentina son gratis en compras superiores a $18.000! / No acumulable con otras promociones</p>
+                          <p ><strong>No recibí mi pedido y ya pasó el plazo de entrega. ¿Qué hago?</strong> </p>
+                          <p >Esto es inusual. Por favor comunicate con nosotros llamando al 0800-555-9174 ó escribiéndonos a nuestro Whatsapp 1150984287. No olvides tener a mano tu número de pedido.</p>
+                          <p><strong>¿Puedo hacer el seguimiento de mi pedido?</strong> </p>
+                          <p >Te enviaremos un mail con un código (tracking number) y las instrucciones para que puedas hacer el seguimiento de tu pedido. También podés conocer el estado de tu envío desde AQUÍ ingresando con Facebook, Mail o creándote una cuenta</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header textb" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="bi bi-credit-card"></i>
+                                <span class="m-2" >Formas de pago</span>
+                            </button>
+                        </p>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body textb">
+                                <p><strong>¿Cómo puedo pagar?</strong> </p>
+                                <p>Podés pagar con los siguientes métodos de pago:
+                                    <br>
+                                    •Tarjeta de crédito.
+                                    <br>
+                                    •Tarjeta de débito en un pago</p>
+                                <p><strong>¿Cómo se hace para pagar con tajeta de crédito?</strong></p>
+                                <p>Agregá los productos que te interesen a tu carrito. Antes de finalizar la compra vas a poder elegir el medio de pago que prefieras (por ejemplo, tarjeta de crédito). Acordate de tener la tarjeta en la mano ya que deberás completar los números de la misma.</p>
+                                <p><strong>Estoy en el exterior, ¿Cómo puedo abonar mi compra?</strong></p>
+                                <p>Si estás en el exterior, podrás abonar tu compra con tarjeta de crédito mediante MercadoPago. Los precios los verás en Pesos Argentinos pero luego tu tarjeta se encargará de hacer la conversión necesaria al momento de acreditar el pago.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header textb" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="bi bi-graph-up"></i>
+                                <span class="m-2">Consultas de stock</span>
+                            </button>
+                        </p>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body textb">
+                                <p><strong>¿Hay stock de todos los productos?</strong></p>
+                                <p>Sí, todos los productos que publicamos están en stock. En caso de agotarse algún talle o color, esa característica se bloqueará.
+                                <br>
+                                En el caso que no haya stock en la página de un artículo que estés buscando, contáctate con nuestro Centro de Atención al Cliente. De esta forma podremos verificar la disponibilidad del producto sea por talle o color y darte una respuesta concreta a tu pedido.</p>
+                                <p><strong>Compré y me dijeron que no tienen stock, ¿qué hago?</strong></p>
+                                <p>Esto es inusual, pero nuestro Centro de Atención al Cliente va a contactarse con vos para brindarte una solución. Si querés, podés comunicarte con nosotros llamando al 0800-555-9174 ó escribiéndonos al whatsapp. No olvides tener a mano tu número de pedido.</p>
+                                <p><strong>¿Hay algún límite de compra?</strong></p>
+                                <p>No. El único límite de compra que tenemos es el stock de nuestro e-Shop. Si deseás hacer una compra mayorista comunicate con nosotros al 4858-4700/4747.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+
         <div class="justify-content-center">
             <form action="./enviar.php" method="post">
                 <fieldset>
-                    <legend >Contacto</legend>
+                    <legend class="textoimg">Contacto</legend>
                     <div class="col-12">
                         <label class="col-2" for="name">Nombre</label>
                         <input class="col-8" type="text" id="name" name="name" title="Ingrese su nombre." required>
@@ -75,15 +147,32 @@
                         <textarea class="col-8" name="message" id="message" cols="20" rows="5"></textarea>
                     </div>
                     <div class="col-12">
-                        <input class="btn-send" type="reset" value="Borrar">
-                        <input class="btn-send" type="submit" value="Enviar">
+                        <div class="btn-espe">
+                            <button class="btn btn-outline-dark" type="reset" value="Borrar">Borrar</button>
+                            <button class="btn btn-outline-dark" type="submit" value="Enviar">Enviar</button>
+                        </div>
+                        <!-- HACERLO BOTN NORMAL -->
+                        <!-- <input class="btn-send" type="reset" value="Borrar">
+                        <input class="btn-send" type="submit" value="Enviar"> -->
                     </div>
                 </fieldset>
             </form>
         </div>
     </main>
-
-
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+        <p class="col-md-4 mb-0 text-muted">© 2022 Brawy, Inc</p>
+    
+        <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img src="./img/nav.png">
+        </a>
+    
+        <ul class="nav col-md-4  justify-content-end">
+          <li class="nav-item"><a href="index.html" target="_blank" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="sobre.html" target="_blank" class="nav-link px-2 text-muted">Historia</a></li>
+          <li class="nav-item"><a href="produ.html" target="_blank" class="nav-link px-2 text-muted">Productos</a></li>
+          <li class="nav-item"><a href="contacto.html" target="_blank" class="nav-link px-2 text-muted">Ayuda</a></li>
+        </ul>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
