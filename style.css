@@ -208,6 +208,9 @@ textarea {
     .card-text{
         text-align: start;
     }
+    footer ul{
+        justify-items: center;
+    }
 } 
 @media screen and (max-width:988px)  
 {
