@@ -205,7 +205,9 @@ textarea {
     form{
         max-width: 100%;
     }
-
+    .card-text{
+        text-align: start;
+    }
 } 
 @media screen and (max-width:988px)  
 {
