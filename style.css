@@ -40,9 +40,6 @@
 }
 
 .img2{
-    /* text-align: center;
-    background-color: aquamarine;
-    justify-content: center; */
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -74,7 +71,6 @@
     font-size: 15px;
 }
 
-/* Pagina productos */
 .listado_produ{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -105,10 +101,9 @@
     font-size:  133%;
     margin: 2%;
 }
-
 .espe{
-    height: 29rem;
-}
+    margin-top: 8rem !important;
+}  
 .ce{
     justify-content: center;
 }
@@ -127,7 +122,6 @@ form{
     padding: 1.8rem,0,1.8rem,1.8rem;
     margin: 1rem auto;
     max-width: 50%;
-
 }
 fieldset{
     border: none;
@@ -199,17 +193,11 @@ textarea {
     .esco2{
         display:block;
     }
-    .espe {
-        max-width: 40rem !important ;
-    }
     form{
         max-width: 100%;
     }
     .card-text{
         text-align: start;
-    }
-    footer ul{
-        justify-content: center !important;
     }
     .carousel-inner{
         margin-top: 40px;
@@ -223,9 +211,5 @@ textarea {
     .esco2{
         display:block;
     }
-    .espe {
-        max-width: 40rem !important ;
-    }
-
-
 }
+
