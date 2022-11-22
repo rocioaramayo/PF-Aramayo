@@ -13,7 +13,7 @@ $message .= "Su e-mail es: " . "$email" . " \r\n";
 $message .= "Mensaje: " . "$_POST['mensaje']" . " \r\n";
 $message .= "Enviado el " . date('d/m/Y', time());
 
-$for = 'mimail@mail.com';
+$for = 'rocioaramay@gmail.com';
 $subjet = 'Mensaje de asunto';
 
 mail($for, $subjet, utf8_decode($message), $header);
