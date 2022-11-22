@@ -211,6 +211,9 @@ textarea {
     footer ul{
         justify-content: center !important;
     }
+    .carousel-inner{
+        margin-top: 40px;
+    }
 } 
 @media screen and (max-width:988px)  
 {
