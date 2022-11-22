@@ -202,6 +202,9 @@ textarea {
     .carousel-inner{
         margin-top: 40px;
     }
+    .imgp{
+        margin-top: 4rem;
+    }
 } 
 @media screen and (max-width:988px)  
 {
